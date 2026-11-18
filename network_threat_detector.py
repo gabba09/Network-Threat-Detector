@@ -3,7 +3,7 @@ from scapy.all import rdpcap, IP, TCP, UDP, ICMP, ARP
 from collections import Counter
 
 # rdpcap() load & read your PCAP file & returns like a Python list
-packets = rdpcap("arp.pcapng")
+packets = rdpcap("samples/arp.pcapng")
 total_packets = len(packets)
 
 #-------------------------------------------------------------------------------------------------
